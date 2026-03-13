@@ -27,11 +27,11 @@ nvidia-smi
 source ~/.bashrc
 mamba activate mace_base
 
-cd /home/groups/xlzheng/ywei2/MACE_training/final/simple_MD_epoch15/
+cd /home/groups/xlzheng/ywei2/MACE_training/final/mixed_MD_epoch15/
 mkdir -p logs
 
-TRAIN=train_fps.extxyz
-VALID=val_ood_r00.extxyz
+TRAIN=train_mixed.extxyz
+VALID=val_mixed.extxyz
 TEST=test_ood_r00.extxyz
 E0S='{8: 0.0, 20: 0.0, 26: 0.0, 27: 0.0, 38: 0.0, 39: 0.0, 56: 0.0, 57: 0.0, 60: 0.0, 62: 0.0, 64: 0.0}'
 
